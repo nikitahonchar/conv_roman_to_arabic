@@ -1,6 +1,6 @@
 ## Convert Roman Numbers to Arabic and back | Python language
 
-This code will parse a roman numeral back into arabic numerals.
+This code will take a roman numeral back into arabic numerals.
 
 > Roman numerals, the numeric system used in ancient Rome, employs combinations of letters from the Latin alphabet to signify values.
 
