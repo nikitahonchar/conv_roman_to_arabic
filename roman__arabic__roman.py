@@ -31,7 +31,7 @@ def roman_to_arabic ():
         if arab >= num_arab[n]:
             rom += num_rom[n]   #добавляем значения в исходную переменную rom, эквивалентно арабскому
             arab -= num_arab[n] #соответсвенно уменьшаем наше число на выше добавленное
-        else: n = n+1
+        else: n += 1
 
     print('Арабское число: ', arabic)
     print('Римское: ', rom)
