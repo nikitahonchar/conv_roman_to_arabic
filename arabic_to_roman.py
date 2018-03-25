@@ -13,7 +13,7 @@ def arabic_to_roman():
         if arab >= numbers[j]:
             rom += letters[j]       #добавляем значения в исходную переменную rom, эквивалентно арабскому
             arab -= numbers[j]      #соответсвенно уменьшаем наше число на вышедобавленное
-        else: j = j+1
+        else: j += 1
 
     print('Римское число: ', rom)
 
